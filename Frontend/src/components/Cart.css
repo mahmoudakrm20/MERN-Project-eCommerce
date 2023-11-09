@@ -1,0 +1,187 @@
+.shoppingcarto{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    color: #292b2c;
+    margin-top: 130px;
+}
+.cartpageflex{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 30px;
+}
+.cartpageflex2 {
+display: flex;
+flex-direction: column;
+}
+
+.rowcolcarto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.cartoimg {
+    display: flex;
+    height: 200px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    background-color: #fbfbfb;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+}
+.cartoimg img{
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+}
+hr {
+    margin-top: 15px;
+}
+.cartodetails{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cartodetails h2{
+    text-align: center;
+    color:#292b2c;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cartodetails h3{
+    text-align: center;
+    color: #ff324d;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cartodetails p{
+    text-align: center;
+    color:#292b2c;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cartobuttono {
+    margin-top: 30px;
+}
+.cartobuttono {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 12px 190px;
+    background-color: #ff324d;
+    color: white;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 1px #ff324d;
+    font-weight: bold;
+    transition: background-color .7s;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+  .cartobuttono:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#ff324d ;
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 660px) {
+    .cartobuttono {
+        padding: 12px 90px;
+    }
+    .cartoimg {
+        display: flex;
+        height: 150px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        background-color: #fbfbfb;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+    }
+    .cartodetails h2{
+        text-align: center;
+        font-size: 20px;
+        color:#292b2c;
+        margin-top: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cartodetails h3{
+        text-align: center;
+        color: #ff324d;
+        margin-top: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .cartodetails p{
+        text-align: center;
+        color:#292b2c;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cartodetails{
+        display: flex;
+        width: 230px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  }
+
+  @media (max-width: 400px) {
+    .cartoimg {
+        display: flex;
+        height: 108px;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        background-color: white;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+    }
+    .cartodetails h2{
+        text-align: center;
+        font-size: 16px;
+        color:#292b2c;
+        margin-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cartodetails h3{
+        text-align: center;
+        color: #ff324d;
+        font-size: 12px;
+        margin-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .cartodetails p{
+        text-align: center;
+        color:#292b2c;
+        margin-top: 20px;
+        font-size: 12px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cartodetails{
+        display: flex;
+        width: 230px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cartobuttono {
+        padding: 12px 74px;}
+  }

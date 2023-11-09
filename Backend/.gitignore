@@ -1,0 +1,28 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn debug log
+yarn-debug.log
+
+# Ignore yarn error log
+yarn-error.log
+
+# Ignore local configuration files
+.env
+
+# Ignore any build or output directories (e.g., dist or build)
+/dist/
+/build/
+
+# Ignore any editor or IDE specific files or directories
+.vscode/
+.idea/
+
+# Ignore .DS_Store files on macOS
+.DS_Store

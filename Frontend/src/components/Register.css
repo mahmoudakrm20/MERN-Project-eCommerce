@@ -1,0 +1,131 @@
+.logincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.LoginInsideContainer {
+    width: 540px;
+    height: 530px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+.LoginInsideContainer h1 {
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family:'Trebuchet MS','Gill Sans', 'Gill Sans MT', Calibri,  sans-serif;
+    color: #292b2c;;
+}
+.LoginInsideContainer h3 {
+    color: #292b2c;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family:'Trebuchet MS','Gill Sans', 'Gill Sans MT', Calibri,  sans-serif;
+}
+.usernameinput {
+    padding: 12px 10px;
+    width: 440px;
+    text-align: left;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: solid .1px rgb(197, 195, 198);
+  }
+.submitinput {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 12px 192px;
+    background-color: #ff324d;
+    color: white;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 1px #ff324d;
+    font-weight: bold;
+    transition: background-color .7s;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+  .submitinput:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#ff324d ;
+  }
+
+  .rememberpw {
+    text-align: start;
+    font-size: large;
+    margin-top: 20px;
+  }
+  .remembertext {
+    font-size: 16px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#292b2c;
+    font-style: oblique;
+  }
+  .labelremember{
+    margin-top: 140px;
+    text-align: start;
+  }
+
+.loggedinalready{
+  text-align: center !important;
+  justify-content: center;
+  align-items: center !important;
+}
+
+
+  @media (max-width: 570px) {
+    .logincontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .LoginInsideContainer {
+        width: 350px;
+        height: 530px;
+        margin-top: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+    .usernameinput {
+        padding: 12px 10px;
+        width: 300px;
+        text-align: left;
+        font-size: large;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        outline: none;
+        border: solid .1px rgb(197, 195, 198);
+      }
+    .submitinput {
+        position: relative;
+        margin-bottom: 5px;
+        padding: 12px 122px;
+        background-color: #ff324d;
+        color: white;
+        border: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: solid 1px #ff324d;
+        font-weight: bold;
+        transition: background-color .7s;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+  }
+
+
+  @media (max-width: 400px){
+  .LoginInsideContainer {
+    width: 295px;
+  }
+  .usernameinput {
+    width: 260px;
+  }
+  .submitinput  {
+    padding: 12px 95px;
+  }
+  }

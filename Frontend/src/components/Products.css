@@ -1,0 +1,276 @@
+.Products1 h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+.productscontainer{
+    width: 65%;
+    margin: 0px auto;
+}
+.productflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(73, 7, 7);
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+.productscol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-basis: 25%;
+}
+
+.productsimg {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 10px;
+}
+.productsimgdiv {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    background-color: white;
+    margin: 0px auto;
+    transition: filter 1s ease;
+}
+
+.columnadjust {
+    border: .1px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    height: 410px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+    margin-left: 30px;
+    background-color:white;
+}
+
+.columnadjust:hover .productsimgdiv{
+  filter: brightness(.8);
+  transition: filter 1s;
+}
+  
+
+.columnadjust h3 {
+    color: #292b2c;
+    padding: 5px 20px;
+}
+.columnadjust h3:hover {
+  color: #c366f9;
+  padding: 5px 20px;
+  transition: .5s ease-in;
+}
+.columnadjust h4 {
+    color: #ff324d;
+    font-size: large;
+    padding: 2px 5px;
+}
+.columnadjust p {
+    color: #292b2c;
+    font-size:17px;
+    font-weight:600;
+} 
+body {
+    background-color: #fbfbfb;
+}
+
+
+.buttonaddtocart {
+    position: relative;
+    margin-bottom: 14px;
+    padding: 6px 18px;
+    background-color: #ff324d;
+    color: white;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 1px #ff324d;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color .9s;
+    font-size: 15px;
+}
+
+  .buttonaddtocart:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#ff324d ;
+  }
+
+
+
+
+  .productsimgdiv {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    /* background-color: white; */
+    background-color: #fbfbfb;
+    margin: 0px auto;
+    /* transition: transform 0.5s ease; */
+  }
+  
+  .columnadjust {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .columnadjust:hover .productsimgdiv {
+    /* transform: translateX(-15px);  */
+  }
+  
+  .buttonaddtocart {
+    /* transition: transform 0.5s ease;  */
+    transition: background-color .5s;
+  }
+  
+  .columnadjust:hover .buttonaddtocart {
+    /* transform: translateX(15px);  */
+  }
+  
+
+
+  .bannerdiv2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .smrcollection{
+    font-size: 25px !important;
+  }
+
+    .cardcss2 button {
+    padding: 15px 30px;
+    background-color: #ff324d;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: oblique;
+    border: solid 1px #ff324d;
+    transition: background-color .7s;
+  }
+  
+  .cardcss2 button:hover {
+    cursor: pointer;
+    background-color: #f7e6d6;
+    color:#ff324d ;
+  }
+  .cardcss2 {
+    position: absolute;
+    left: 400px;
+   
+    z-index: 2; 
+  }
+  .cardcss2 h1{
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif
+  }
+  .cardcss2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #292b2c;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  @media (max-width: 1357px) {
+    .cardcss2 {
+        left: 250px;
+      }
+      .bannerjpg {
+       margin-right: 200px;
+      }
+  }
+  @media (max-width: 947px) {
+    .cardcss2 {
+        left: 130px;
+      }
+      .bannerjpg {
+       margin-right: 300px;
+      }
+  }
+
+
+
+  @media (max-width: 813px) {
+    
+    .cardcss2 {
+      position: absolute;
+        left: 110px !important;
+        top: 260px !important;
+      }
+      .bannerjpg {
+        margin-right: 650px;
+       }
+       .containercss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+       align-items: center;
+      }
+      .cardcss2 button {
+        padding: 8px 25px;
+        background-color: #ff324d;
+        color: white;
+        border: none;
+        margin-top: 20px;
+      }
+      .cardcss2 button:hover {
+        cursor: pointer;
+      }
+      .cardcss2 h1{
+        font-size: 30px !important;
+        font-family:'Times New Roman', Times, serif;
+        background-color: #f7e6d6;
+        padding: 0px 10px;
+      }
+      .cardcss2 p{
+        display: none;
+      }
+      .containerinside{
+        display: flex;
+        flex-direction: column;
+        
+       
+      }
+      .secondcard {
+        
+        margin-top: 40px;
+        margin-left: 0px;
+      }
+  }
+  @media (max-width: 400px) {
+ 
+
+  .cardcss2 h1 {
+    font-size: 22px !important;
+  }
+  .cardcss2 {
+    position: absolute;
+    left: 45px !important;
+    top : 200px !important;
+  }
+    .cardcss2 button {
+      margin-left: 35px;
+    }
+    .columnadjust {
+      width: 240px;
+      margin-left: 0px;
+    }
+}

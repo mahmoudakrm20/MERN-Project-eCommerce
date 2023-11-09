@@ -1,0 +1,317 @@
+.bannerdiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardcss {
+    position: absolute;
+    left: 400px;
+   
+    z-index: 2; 
+  }
+  
+  .bannercss {
+   
+  }
+  
+  .bannercss img {
+    
+    
+  }
+
+  .cardcss button {
+    padding: 18px 38px;
+    background-color: #ff324d;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: oblique;
+    border: solid 1px #ff324d;
+    transition: background-color .7s;
+  }
+  
+  .cardcss button:hover {
+    cursor: pointer;
+    background-color: #d6f6f1;
+    color:#ff324d ;
+  }
+  
+  .cardcss h1{
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif
+  }
+  .cardcss p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #292b2c;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  .containercss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+   
+  }
+  
+  .rowcss {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: rgb(233, 233, 233) ridge  .1px;
+    height: 110px;
+    width: 280px;
+  }
+  
+  .rowcss img {
+    margin-right: 10px;
+  }
+  .rowcss h1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ff324d;
+    margin-bottom: 7px !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .rowcss p {
+    font-size: 14px;
+    color: #687188;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .rowcss h1,
+  .rowcss p {
+    margin: 0;
+  }
+.delivery{
+width: 50px;
+height: 50px;
+margin: 20px 20px;
+}
+
+.hamada {
+  padding: 20px 20px;
+}
+.container2cards {
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  margin-top: 100px;
+  
+ 
+}
+.containerinside{
+  display: flex;
+  flex-direction: row;
+}
+.firstcard {
+height: 300px;
+width: 540px;
+background-color: #ffdbdf;
+position: relative;
+}
+.firstcard , .secondcard{
+  overflow: hidden;
+  display: flex;
+}
+.firstcard img {
+  transition: transform 0.5s ease-in-out;
+}
+.firstcard img:hover , .secondcard img:hover{
+  transform: scale(1.08);
+  /* transition: transform 0.5s ease; */
+}
+
+.secondcard img {
+  transition: transform 0.5s ease-in-out;
+}
+.secondcarddetails{
+  z-index: 0;
+  position: absolute;
+  right: 35px;
+  top : 100px;
+}
+
+.secondcarddetails h1 {
+  font-size: 33px;
+  color: #ff324d;
+  margin-bottom: 10px;
+  font-family:cursive
+}
+.secondcarddetails h2 {
+font-size: 25px;
+margin-bottom: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.secondcarddetails h3 {
+font-size: 18px;
+margin-bottom: 10px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+}
+.secondcarddetails h3:hover{
+  cursor: pointer;
+}
+
+.secondcard {
+  position: relative;
+  height: 300px;
+  width: 540px;
+  background-color: #d6f7fe;
+  margin-left: 30px;
+}
+
+
+@media (max-width: 1200px) {
+  .firstcard , .secondcard{
+    height: 200px;
+    width: 360px;
+    background-color: #ffdbdf;
+    position: relative;
+    }
+    .secondcarddetails{
+      z-index: 0;
+      position: absolute;
+      right: 20px;
+      top : 80px;
+    }
+    
+    .secondcarddetails h1 {
+      font-size: 22px;
+      color: #ff324d;
+      margin-bottom: 10px;
+      font-family:cursive
+    }
+    .secondcarddetails h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .secondcarddetails h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    }
+    .secondcarddetails h3:hover{
+      cursor: pointer;
+    }
+
+}
+
+
+
+
+  @media (max-width: 1357px) {
+    .cardcss {
+        left: 250px;
+      }
+      .bannerjpg {
+       margin-right: 200px;
+      }
+  }
+  @media (max-width: 947px) {
+    .cardcss {
+        left: 130px;
+      }
+      .bannerjpg {
+       margin-right: 300px;
+      }
+  }
+
+
+  @media (max-width: 813px) {
+    
+    .cardcss {
+      position: absolute;
+        left: 275px !important;
+        top: 374px !important ;
+      }
+      .bannerjpg {
+        margin-right: 650px;
+       }
+       .containercss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+       align-items: center;
+      }
+      .cardcss button {
+        padding: 8px 25px;
+        background-color: #ff324d;
+        color: white;
+        border: none;
+        margin-top: 20px;
+      }
+      .cardcss button:hover {
+        cursor: pointer;
+      }
+      .cardcss h1{
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgba(214, 246, 241, 0.7);
+        padding: 0px 10px;
+      }
+      .cardcss p{
+        display: none;
+      }
+      .containerinside{
+        display: flex;
+        flex-direction: column;
+        
+       
+      }
+      .secondcard {
+        
+        margin-top: 40px;
+        margin-left: 0px;
+      }
+  }
+  @media (max-width: 571px) {
+    
+    .cardcss {
+      position: absolute;
+        left: 200px !important;
+        top: 374px !important ;
+      }
+    }
+  @media (max-width: 400px) {
+    .cardcss h1 {
+      font-size: 27px;
+  }
+  .cardcss {
+    position: absolute;
+    left: 105px !important;
+    top: 250px !important;
+  }
+  .firstcard, .secondcard {
+    height: 200px;
+    width: 296px;}
+    .secondcarddetails h1 {
+      font-size: 20px;
+      color: #ff324d;
+      margin-bottom: 10px;
+      font-family:cursive
+    }
+    .secondcarddetails h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .secondcarddetails h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    }
+    .secondcarddetails {
+      z-index: 0;
+      position: absolute;
+      right: 4px;
+      top: 20px;}
+}
